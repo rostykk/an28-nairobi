@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ан-28 · Перегін в Найробі — AeroTruck Logistics</title>
+<meta name="description" content="Тур-челендж AeroTruck Logistics для MSFS 2024: перегін Ан-28 з Києва до Найробі за 7 етапів.">
+<meta property="og:title" content="Ан-28 · Перегін в Найробі">
+<meta property="og:description" content="Тур-челендж AeroTruck Logistics: сім етапів, три дні, від снігу «Чайки» до савани Найробі.">
+<meta property="og:image" content="img/crew-chaika.jpg">
+<link rel="icon" href="img/aerotruck-logo.png">
+<style>
+@font-face{font-family:"Exo 2";src:url(fonts/Exo2-Italic.woff2) format("woff2");font-style:italic;font-weight:100 900;font-display:swap}
+@font-face{font-family:"Exo 2";src:url(fonts/Exo2.woff2) format("woff2");font-style:normal;font-weight:100 900;font-display:swap}
+@font-face{font-family:"IBM Plex Sans";src:url(fonts/IBMPlexSans.woff2) format("woff2");font-style:normal;font-weight:100 700;font-display:swap}
+@font-face{font-family:"IBM Plex Sans";src:url(fonts/IBMPlexSans-Italic.woff2) format("woff2");font-style:italic;font-weight:100 700;font-display:swap}
+@font-face{font-family:"IBM Plex Mono";src:url(fonts/IBMPlexMono-Medium.woff2) format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"IBM Plex Mono";src:url(fonts/IBMPlexMono-SemiBold.woff2) format("woff2");font-weight:600;font-display:swap}
+html,body{margin:0;background:#1b2233}
+body{font-family:"IBM Plex Sans",sans-serif}
+.bar{position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px max(16px,env(safe-area-inset-left));background:#1C3466;color:#fff;font-family:"IBM Plex Mono",monospace;font-size:13px}
+.bar b{font-family:"Exo 2",sans-serif;font-style:italic;font-weight:800;font-size:17px}
+.bar a{color:#F5D805;text-decoration:none;border:1.5px solid #F5D805;border-radius:999px;padding:6px 12px;white-space:nowrap}
+.bar .l{display:flex;align-items:center;gap:10px;min-width:0}
+.bar img{width:32px;height:32px;border-radius:8px}
+main{display:flex;flex-direction:column;align-items:center;gap:24px;padding:24px 16px 48px}
+.sheet{width:min(794px,100%);aspect-ratio:794/1123;position:relative;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.45);border-radius:4px}
+.page{width:794px;height:1123px;transform-origin:0 0;transform:scale(var(--s,1))}
+.page a{color:var(--link)}
+@media print{
+  @page{size:794px 1123px;margin:0}
+  html,body{background:none}
+  .bar{display:none}
+  main{padding:0;gap:0}
+  .sheet{width:794px;box-shadow:none;border-radius:0;break-after:page}
+  .page{transform:none}
+}
+</style>
+</head>
+<body>
+<header class="bar"><div class="l"><img src="img/aerotruck-logo.png" alt=""><b>Ан-28 · Перегін в Найробі</b></div><a href="AN28_Peregin_v_Nairobi.pdf">PDF</a></header>
+<main>
+<section class="sheet" id="p1" style="--link:#F5D805"><div class="page" style="background:#3564AF">
+<div style="width: 794px; height: 1123px; box-sizing: border-box; display: flex; flex-direction: column; background: #3564AF; font-family: 'IBM Plex Sans', sans-serif; color: #ffffff; overflow: hidden">
+
+  <div style="height: 480px; box-sizing: border-box; padding: 36px 56px 0 56px; display: flex; flex-direction: column; gap: 20px">
+    <div style="display: flex; align-items: center; justify-content: space-between; gap: 16px">
+      <div style="display: flex; align-items: center; gap: 16px">
+        <img src="img/aerotruck-logo.png" alt="Логотип AeroTruck" style="width: 72px; height: 72px; border-radius: 14px; display: block">
+        <div style="display: flex; flex-direction: column; gap: 2px">
+          <div style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-style: italic; font-size: 24px; letter-spacing: 0.2px">AeroTruck Logistics</div>
+          <div style="font-size: 14px; color: #DCE6F7; letter-spacing: 1.5px; text-transform: uppercase">Тур-челендж · Ferry flight</div>
+        </div>
+      </div>
+      <div style="border: 2px solid #F5D805; color: #F5D805; border-radius: 999px; padding: 8px 16px; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 14px; letter-spacing: 1px">TET 2804</div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 6px">
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 64px; line-height: 0.95; color: #ffffff; letter-spacing: -1px">АН-28</div>
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 104px; line-height: 0.9; color: #F5D805; letter-spacing: -2px">ПЕРЕГІН</div>
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 72px; line-height: 0.95; color: #ffffff; letter-spacing: -1px">В НАЙРОБІ</div>
+    </div>
+
+    <div style="font-size: 17px; line-height: 1.4; max-width: 660px; color: #ffffff">Київ «Чайка» → Найробі «Вілсон». Листопад, 90-ті. Сніг на ґрунтовій смузі, пустеля без зв'язку і нічний ешелон, на який цей літак ніхто не розраховував.</div>
+  </div>
+
+  <div style="height: 511px; position: relative; border-top: 10px solid #F5D805; box-sizing: border-box; overflow: hidden">
+    <img src="img/crew-chaika.jpg" alt="Екіпаж AeroTruck — Видра, Бобер і Качур — біля Ан-28 ER-AJC на засніженому полі" style="width: 794px; height: 430px; object-fit: cover; object-position: 50% 70%; display: block">
+    <div style="position: absolute; left: 24px; top: 20px; background: #1C3466; color: #ffffff; border-radius: 999px; padding: 7px 14px; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 13px; letter-spacing: 1px">Видра, Бобер і Качур · ER-AJC</div>
+    <div style="position: absolute; left: 0; bottom: 0; width: 794px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr))">
+      <div style="background: #DCE3EC; color: #1C3466; padding: 10px 18px; display: flex; align-items: baseline; gap: 10px"><div style="font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px; letter-spacing: 2px">ДЕНЬ 1</div><div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px">Сніг і море</div></div>
+      <div style="background: #E3C27A; color: #3A2A0C; padding: 10px 18px; display: flex; align-items: baseline; gap: 10px"><div style="font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px; letter-spacing: 2px">ДЕНЬ 2</div><div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px">Пустеля і ніч</div></div>
+      <div style="background: #6E9A4E; color: #ffffff; padding: 10px 18px; display: flex; align-items: baseline; gap: 10px"><div style="font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px; letter-spacing: 2px">ДЕНЬ 3</div><div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px">Савана</div></div>
+    </div>
+  </div>
+
+  <div style="height: 203px; box-sizing: border-box; background: #1C3466; padding: 26px 56px 24px 56px; display: flex; flex-direction: column; gap: 16px">
+    <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px">
+      <div style="display: flex; flex-direction: column; gap: 2px">
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 56px; line-height: 1; color: #F5D805">7</div>
+        <div style="font-size: 15px; color: #ffffff">етапів</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 2px">
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 56px; line-height: 1; color: #F5D805">6810</div>
+        <div style="font-size: 15px; color: #ffffff">км за звітом</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 2px">
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 56px; line-height: 1; color: #F5D805">3</div>
+        <div style="font-size: 15px; color: #ffffff">дні, 7 країн</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 2px">
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 56px; line-height: 1; color: #F5D805">0</div>
+        <div style="font-size: 15px; color: #ffffff">автопілотів</div>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #4B6AA6; padding-top: 14px; font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #DCE6F7">
+      <div>UKKJ → HKNW</div>
+      <div>Україна · Болгарія · Туреччина · Єгипет · Судан · Ефіопія · Кенія</div>
+    </div>
+  </div>
+
+</div>
+</div></section>
+<section class="sheet" id="p2" style="--link:#3564AF"><div class="page" style="background:#F4EEE2">
+<div style="width: 794px; height: 1123px; box-sizing: border-box; padding: 40px 64px 36px 64px; display: flex; flex-direction: column; background: #F4EEE2; font-family: 'IBM Plex Sans', sans-serif; color: #16233F; overflow: hidden">
+
+  <div style="display: flex; justify-content: space-between; align-items: center; height: 40px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <img src="img/aerotruck-logo.png" alt="Логотип AeroTruck" style="width: 36px; height: 36px; border-radius: 8px; display: block">
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-style: italic; font-size: 17px; color: #3564AF">AeroTruck Logistics</div>
+    </div>
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 1px; color: #4A5878">ПЕРЕГІН В НАЙРОБІ · БРИФІНГ</div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 30px">
+    <div style="font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 13px; letter-spacing: 2px; color: #A3401F">ЗАВДАННЯ: ПЕРЕГІН ЛІТАКА АН-28</div>
+    <h1 style="margin: 0; font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 50px; line-height: 1.02; color: #1C3466; letter-spacing: -0.5px; text-wrap: balance">Своїм ходом через пів світу</h1>
+  </div>
+
+  <p style="margin: 18px 0 0 0; font-size: 18px; line-height: 1.5; font-weight: 500; text-wrap: pretty">Кінець 90-х. Роботи вдома немає, рейсів дедалі менше. Зате з глухих стоянок колишнього Союзу визволили кілька Ан-28, перефарбували, поміняли двигуни й гвинти, і тепер вони потрібні в Африці. А Африка далеко, і літаки туди мають дістатися своїм ходом.</p>
+
+  <p style="margin: 14px 0 0 0; font-size: 16px; line-height: 1.55; text-wrap: pretty">Цей тур іде за оповіданням Flying Elk <a href="https://www.patreon.com/u76304899/posts/28-peregon-v-116789578" style="font-weight: 600">«Ан-28, перегон літака в Африку»</a>. Автор називає його вигадкою, а повністю прочитати можна на його Patreon. Командир налітав тисячі годин на Ан-2 і Ан-28, але перегоном за кордон ще не займався. Другий пілот має півсотні годин на типі і ще ніколи по-справжньому не вів радіообмін англійською. Позивний TET 2804. На борту два техніки, додатковий бак, запасний двигун на рамі, холодильник, бо «там жарко», і папка ксерокопій схем. Сім етапів, три дні, від мокрого снігу Києва до червоної землі Найробі.</p>
+
+  <div style="margin-top: 20px; display: flex; align-items: center; gap: 12px">
+    <div style="width: 40px; height: 6px; background: #F5D805; border-radius: 3px"></div>
+    <div style="font-size: 16px; font-weight: 600; color: #1C3466">Ні автопілота, ні локатора: тільки два АРК, GPS і підказки наших маскотів:</div>
+  </div>
+
+  <div style="margin-top: 14px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px">
+    <div style="background: #ffffff; border: 1px solid #DDD3C0; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 12px">
+      <div style="display: flex; align-items: center; gap: 12px">
+        <img src="img/avatar-beaver.png" alt="Бобер, командир" style="width: 72px; height: 72px; border-radius: 50%; display: block; flex-shrink: 0">
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 24px; color: #3564AF">Бобер</div>
+      </div>
+      <div style="font-size: 14px; line-height: 1.42">Завантажив салон під стелю: бак, запасний двигун, ящик із гвинтом, сало і відеомагнітофон із десятком касет. Каже, на буш-аеродромі знадобиться все.</div>
+    </div>
+    <div style="background: #ffffff; border: 1px solid #DDD3C0; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 12px">
+      <div style="display: flex; align-items: center; gap: 12px">
+        <img src="img/avatar-otter.png" alt="Видра, другий пілот" style="width: 72px; height: 72px; border-radius: 50%; display: block; flex-shrink: 0">
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 24px; color: #A3401F">Видра</div>
+      </div>
+      <div style="font-size: 14px; line-height: 1.42">Першою вийшла на поле «Чайки» і копнула сніг: п'ятнадцять сантиметрів, але ґрунт під ним твердий. Вердикт: «Злетимо. Довге планерне крило винесе».</div>
+    </div>
+    <div style="background: #ffffff; border: 1px solid #DDD3C0; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 12px">
+      <div style="display: flex; align-items: center; gap: 12px">
+        <img src="img/avatar-drake.png" alt="Качур, штурман" style="width: 72px; height: 72px; border-radius: 50%; display: block; flex-shrink: 0">
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 24px; color: #2E6B3F">Качур</div>
+      </div>
+      <div style="font-size: 14px; line-height: 1.42">Штурман, якого в Ан-28 за штатом немає. Сидить на ящику між кріслами з лінійкою НЛ-10 і просить перед вильотом перевірити, чи всі схеми Бургаса в папці.</div>
+    </div>
+  </div>
+
+  <div style="margin-top: 16px; position: relative; width: 666px; height: 170px; border-radius: 16px; overflow: hidden">
+    <img src="img/er-ajc-dawn.jpg" alt="Ан-28 ER-AJC у польоті над морем на світанку" style="width: 666px; height: 170px; object-fit: cover; object-position: 50% 42%; display: block">
+    <div style="position: absolute; right: 14px; bottom: 12px; background: #1C3466; color: #ffffff; border-radius: 999px; padding: 6px 12px; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px; letter-spacing: 1px">ER-AJC · ранок над Середземним морем</div>
+  </div>
+
+  <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #CFC4AE; padding-top: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A5878">
+    <div>aerotruck logistics · ferry flight</div>
+    <div style="display: flex; align-items: center; gap: 10px"><div style="width: 24px; height: 6px; background: #F5D805; border-radius: 3px"></div><div>02 / 10</div></div>
+  </div>
+
+</div>
+</div></section>
+<section class="sheet" id="p3" style="--link:#3564AF"><div class="page" style="background:#F4EEE2">
+<div style="width: 794px; height: 1123px; box-sizing: border-box; padding: 40px 64px 36px 64px; display: flex; flex-direction: column; background: #F4EEE2; font-family: 'IBM Plex Sans', sans-serif; color: #16233F; overflow: hidden">
+
+  <div style="display: flex; justify-content: space-between; align-items: center; height: 40px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <img src="img/aerotruck-logo.png" alt="Логотип AeroTruck" style="width: 36px; height: 36px; border-radius: 8px; display: block">
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-style: italic; font-size: 17px; color: #3564AF">AeroTruck Logistics</div>
+    </div>
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 1px; color: #4A5878">ПЕРЕГІН В НАЙРОБІ · ТРИ ДНІ</div>
+  </div>
+
+  <h2 style="margin: 28px 0 0 0; font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 46px; line-height: 1; color: #1C3466">Три дні перегону</h2>
+
+  <div style="margin-top: 20px; display: flex; flex-direction: column; gap: 12px">
+    <div style="display: flex; gap: 16px; background: #ffffff; border: 1px solid #DDD3C0; border-radius: 16px; padding: 16px 18px; align-items: flex-start">
+      <div style="width: 92px; flex-shrink: 0; border-radius: 12px; background: #DCE3EC; color: #1C3466; padding: 10px 0; display: flex; flex-direction: column; align-items: center; gap: 2px">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px; letter-spacing: 2px">ДЕНЬ</div>
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 44px; line-height: 1">1</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 6px">
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 22px; color: #1C3466">Сніг і море</div>
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; font-weight: 600; color: #3564AF">27 листопада · UKKJ → UKKK → LBBG → LTAI · етапи 1–3</div>
+        <div style="font-size: 14px; line-height: 1.45">Зліт із засніженого ґрунту «Чайки», дванадцять кілометрів до Жулян при нижній кромці 70 метрів. Митниця, обледеніння в наборі, Одеса англійською. Бургас уже в темряві, далі над Чорним морем і через усю Туреччину в Анталію.</div>
+      </div>
+    </div>
+
+    <div style="display: flex; gap: 16px; background: #ffffff; border: 1px solid #DDD3C0; border-radius: 16px; padding: 16px 18px; align-items: flex-start">
+      <div style="width: 92px; flex-shrink: 0; border-radius: 12px; background: #E3C27A; color: #3A2A0C; padding: 10px 0; display: flex; flex-direction: column; align-items: center; gap: 2px">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px; letter-spacing: 2px">ДЕНЬ</div>
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 44px; line-height: 1">2</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 6px">
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 22px; color: #1C3466">Пустеля і ніч</div>
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; font-weight: 600; color: #3564AF">28 листопада · LTAI → HELX → HSSK → HAAB · етапи 4–6</div>
+        <div style="font-size: 14px; line-height: 1.45">Середземне море без рятувального плота, піраміди з трьох кілометрів і перекачка з додаткового бака над Каїром. Луксор посеред кам'яного плато, Хартум на заході сонця. Без потрібних документів ночувати тут не дадуть, тож далі вночі в Аддис-Абебу.</div>
+      </div>
+    </div>
+
+    <div style="display: flex; gap: 16px; background: #ffffff; border: 1px solid #DDD3C0; border-radius: 16px; padding: 16px 18px; align-items: flex-start">
+      <div style="width: 92px; flex-shrink: 0; border-radius: 12px; background: #6E9A4E; color: #ffffff; padding: 10px 0; display: flex; flex-direction: column; align-items: center; gap: 2px">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px; letter-spacing: 2px">ДЕНЬ</div>
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 44px; line-height: 1">3</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 6px">
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 22px; color: #1C3466">Савана</div>
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; font-weight: 600; color: #3564AF">29 листопада · HAAB → HKNW · етап 7</div>
+        <div style="font-size: 14px; line-height: 1.45">Зліт із висоти 2300 метрів і майже пряма лінія на південь над жовтими полями. Перед Найробі зелень, кучева хмарність, що переростає в грози, злива по склу і посадка на мокру смугу «Вілсона».</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-top: 22px; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 13px; letter-spacing: 2px; color: #A3401F">ЛЕГЕНДАРНІ ТОЧКИ</div>
+  <div style="margin-top: 12px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+    <div style="background: #3564AF; border-radius: 14px; padding: 16px 18px; display: flex; flex-direction: column; gap: 5px; color: #ffffff">
+      <div style="font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 28px; color: #F5D805; letter-spacing: 1px">UKKJ</div>
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-style: italic; font-size: 19px">Київ «Чайка»</div>
+      <div style="font-size: 14px; line-height: 1.42">Аероклубне поле на західній околиці. Посередині горбок, де снігу менше. Там літак і відривається.</div>
+    </div>
+    <div style="background: #3564AF; border-radius: 14px; padding: 16px 18px; display: flex; flex-direction: column; gap: 5px; color: #ffffff">
+      <div style="font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 28px; color: #F5D805; letter-spacing: 1px">HELX</div>
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-style: italic; font-size: 19px">Луксор</div>
+      <div style="font-size: 14px; line-height: 1.42">Схожий на Місяць: камінь, пісок і порожній перон. Схема заходу на смугу 02 для Ан-28 безкінечна, розворот аж за 15 миль.</div>
+    </div>
+    <div style="background: #3564AF; border-radius: 14px; padding: 16px 18px; display: flex; flex-direction: column; gap: 5px; color: #ffffff">
+      <div style="font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 28px; color: #F5D805; letter-spacing: 1px">HSSK</div>
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-style: italic; font-size: 19px">Хартум</div>
+      <div style="font-size: 14px; line-height: 1.42">Нічний перон, де крило заходить над крило: Ан-2, Ан-12, Іл-76 і навіть кіль Іл-62.</div>
+    </div>
+    <div style="background: #3564AF; border-radius: 14px; padding: 16px 18px; display: flex; flex-direction: column; gap: 5px; color: #ffffff">
+      <div style="font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 28px; color: #F5D805; letter-spacing: 1px">HAAB</div>
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-style: italic; font-size: 19px">Аддис-Абеба</div>
+      <div style="font-size: 14px; line-height: 1.42">Аеродром на 7600 футах серед гір. Із заходу нормального заходу на 07 немає, тож тільки візуально.</div>
+    </div>
+  </div>
+
+  <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #CFC4AE; padding-top: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A5878">
+    <div>aerotruck logistics · ferry flight</div>
+    <div style="display: flex; align-items: center; gap: 10px"><div style="width: 24px; height: 6px; background: #F5D805; border-radius: 3px"></div><div>03 / 10</div></div>
+  </div>
+
+</div>
+</div></section>
+<section class="sheet" id="p4" style="--link:#3564AF"><div class="page" style="background:#F4EEE2">
+<div style="width: 794px; height: 1123px; box-sizing: border-box; padding: 40px 64px 36px 64px; display: flex; flex-direction: column; background: #F4EEE2; font-family: 'IBM Plex Sans', sans-serif; color: #16233F; overflow: hidden">
+
+  <div style="display: flex; justify-content: space-between; align-items: center; height: 40px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <img src="img/aerotruck-logo.png" alt="Логотип AeroTruck" style="width: 36px; height: 36px; border-radius: 8px; display: block">
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-style: italic; font-size: 17px; color: #3564AF">AeroTruck Logistics</div>
+    </div>
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 1px; color: #4A5878">ПЕРЕГІН В НАЙРОБІ · КАРТА</div>
+  </div>
+
+  <div style="margin-top: 24px; display: flex; justify-content: space-between; align-items: flex-end; gap: 16px">
+    <h2 style="margin: 0; font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 46px; line-height: 1; color: #1C3466">Карта маршруту</h2>
+    <div style="font-size: 13px; color: #4A5878; text-align: right">Секційна карта · висоти у футах</div>
+  </div>
+
+  <div style="margin-top: 16px; position: relative; width: 666px; height: 780px; border: 1px solid #D6CAB0; border-radius: 18px; overflow: hidden; background: #C3E0F2">
+    <img src="img/chart-route.jpg" alt="Секційна карта маршруту Ан-28 від Києва до Найробі з курсами і відстанями" style="width: 666px; height: 780px; object-fit: cover; display: block">
+    <div style="position: absolute; right: 14px; bottom: 14px; background: #1C3466; color: #ffffff; border-radius: 12px; padding: 10px 14px; display: flex; flex-direction: column; gap: 2px">
+      <div style="font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 20px; color: #F5D805">3431 NM</div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 1px">13 ТОЧОК · 22:08 НА 155 KT</div>
+    </div>
+  </div>
+
+  <div style="margin-top: 14px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; font-size: 13px; line-height: 1.3">
+    <div style="display: flex; align-items: center; gap: 8px"><div style="width: 22px; height: 22px; flex-shrink: 0; border-radius: 6px; background: #DCE3EC; color: #1C3466; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px; display: flex; align-items: center; justify-content: center">1</div><div><b>День 1</b> UKKJ → LTAI</div></div>
+    <div style="display: flex; align-items: center; gap: 8px"><div style="width: 22px; height: 22px; flex-shrink: 0; border-radius: 6px; background: #E3C27A; color: #3A2A0C; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px; display: flex; align-items: center; justify-content: center">2</div><div><b>День 2</b> LTAI → HAAB</div></div>
+    <div style="display: flex; align-items: center; gap: 8px"><div style="width: 22px; height: 22px; flex-shrink: 0; border-radius: 6px; background: #6E9A4E; color: #ffffff; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px; display: flex; align-items: center; justify-content: center">3</div><div><b>День 3</b> HAAB → HKNW</div></div>
+    <div style="display: flex; align-items: center; gap: 8px"><svg aria-hidden="true" width="26" height="8" style="flex-shrink: 0"><line x1="2" y1="4" x2="24" y2="4" stroke="#B0127A" stroke-width="4" stroke-linecap="round"></line></svg><div><b style="font-family: 'IBM Plex Mono', monospace">181° · 605 NM</b> курс і відстань</div></div>
+  </div>
+
+  <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #CFC4AE; padding-top: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A5878">
+    <div>aerotruck logistics · ferry flight</div>
+    <div style="display: flex; align-items: center; gap: 10px"><div style="width: 24px; height: 6px; background: #F5D805; border-radius: 3px"></div><div>04 / 10</div></div>
+  </div>
+
+</div>
+</div></section>
+<section class="sheet" id="p5" style="--link:#3564AF"><div class="page" style="background:#F4EEE2">
+<div style="width: 794px; height: 1123px; box-sizing: border-box; padding: 40px 64px 36px 64px; display: flex; flex-direction: column; background: #F4EEE2; font-family: 'IBM Plex Sans', sans-serif; color: #16233F; overflow: hidden">
+
+  <div style="display: flex; justify-content: space-between; align-items: center; height: 40px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <img src="img/aerotruck-logo.png" alt="Логотип AeroTruck" style="width: 36px; height: 36px; border-radius: 8px; display: block">
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-style: italic; font-size: 17px; color: #3564AF">AeroTruck Logistics</div>
+    </div>
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 1px; color: #4A5878">ПЕРЕГІН В НАЙРОБІ · ЕТАПИ</div>
+  </div>
+
+  <div style="margin-top: 26px; display: flex; justify-content: space-between; align-items: flex-end; gap: 16px">
+    <h2 style="margin: 0; font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 46px; line-height: 1; color: #1C3466">7 етапів</h2>
+    <div style="font-size: 13px; color: #4A5878; text-align: right; line-height: 1.4">Відстані й час — зі справжнього<br>звіту про політ, 27–29 листопада</div>
+  </div>
+
+  <table style="margin-top: 16px; width: 666px; border-collapse: collapse; font-size: 13px; background: #ffffff; border: 1px solid #D6CAB0">
+    <thead>
+      <tr style="background: #1C3466; color: #ffffff; text-align: left">
+        <th style="padding: 9px 7px; width: 22px; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px; text-align: right">№</th>
+        <th style="padding: 9px 7px; width: 44px; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px">ДАТА</th>
+        <th style="padding: 9px 7px; width: 112px; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px">МАРШРУТ</th>
+        <th style="padding: 9px 7px; width: 42px; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px; text-align: right">КМ</th>
+        <th style="padding: 9px 7px; width: 96px; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px">ВИЛІТ–ПОС.</th>
+        <th style="padding: 9px 7px; width: 40px; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px; text-align: right">НАЛІТ</th>
+        <th style="padding: 9px 7px; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px">ЩО ЧЕКАЄ</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-top: 1px solid #E3DACA"><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace; color: #4A5878">1</td><td style="padding: 10px 7px"><div style="display: inline-block; border-radius: 6px; background: #DCE3EC; color: #1C3466; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 11px; padding: 3px 5px">27.11</div></td><td style="padding: 10px 7px; font-family: 'IBM Plex Mono', monospace; font-weight: 600">UKKJ → UKKK</td><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace">15</td><td style="padding: 10px 7px; font-family: 'IBM Plex Mono', monospace">10:12–10:35</td><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace">0:23</td><td style="padding: 10px 7px; line-height: 1.35">Сніг на ґрунті, кромка 70 м</td></tr>
+      <tr style="border-top: 1px solid #E3DACA; background: #FAF7F0"><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace; color: #4A5878">2</td><td style="padding: 10px 7px"><div style="display: inline-block; border-radius: 6px; background: #DCE3EC; color: #1C3466; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 11px; padding: 3px 5px">27.11</div></td><td style="padding: 10px 7px; font-family: 'IBM Plex Mono', monospace; font-weight: 600">UKKK → LBBG</td><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace">1031</td><td style="padding: 10px 7px; font-family: 'IBM Plex Mono', monospace">17:00–20:35</td><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace">3:35</td><td style="padding: 10px 7px; line-height: 1.35">Обледеніння, Одеса, Румунія</td></tr>
+      <tr style="border-top: 1px solid #E3DACA"><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace; color: #4A5878">3</td><td style="padding: 10px 7px"><div style="display: inline-block; border-radius: 6px; background: #DCE3EC; color: #1C3466; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 11px; padding: 3px 5px">27.11</div></td><td style="padding: 10px 7px; font-family: 'IBM Plex Mono', monospace; font-weight: 600">LBBG → LTAI</td><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace">960</td><td style="padding: 10px 7px; font-family: 'IBM Plex Mono', monospace">21:00–23:45</td><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace">2:45</td><td style="padding: 10px 7px; line-height: 1.35">Нічне море, дуга 12 миль</td></tr>
+      <tr style="border-top: 1px solid #E3DACA; background: #FAF7F0"><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace; color: #4A5878">4</td><td style="padding: 10px 7px"><div style="display: inline-block; border-radius: 6px; background: #E3C27A; color: #3A2A0C; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 11px; padding: 3px 5px">28.11</div></td><td style="padding: 10px 7px; font-family: 'IBM Plex Mono', monospace; font-weight: 600">LTAI → HELX</td><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace; font-weight: 700; color: #A3401F">1400</td><td style="padding: 10px 7px; font-family: 'IBM Plex Mono', monospace">09:00–13:45</td><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace">4:45</td><td style="padding: 10px 7px; line-height: 1.35">Море без плота, дод. бак</td></tr>
+      <tr style="border-top: 1px solid #E3DACA"><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace; color: #4A5878">5</td><td style="padding: 10px 7px"><div style="display: inline-block; border-radius: 6px; background: #E3C27A; color: #3A2A0C; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 11px; padding: 3px 5px">28.11</div></td><td style="padding: 10px 7px; font-family: 'IBM Plex Mono', monospace; font-weight: 600">HELX → HSSK</td><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace; font-weight: 700; color: #A3401F">1185</td><td style="padding: 10px 7px; font-family: 'IBM Plex Mono', monospace">14:30–18:05</td><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace">3:35</td><td style="padding: 10px 7px; line-height: 1.35">Пустеля, УКХ мовчить</td></tr>
+      <tr style="border-top: 1px solid #E3DACA; background: #FAF7F0"><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace; color: #4A5878">6</td><td style="padding: 10px 7px"><div style="display: inline-block; border-radius: 6px; background: #1C3466; color: #F5D805; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 11px; padding: 3px 5px">28.11</div></td><td style="padding: 10px 7px; font-family: 'IBM Plex Mono', monospace; font-weight: 600">HSSK → HAAB</td><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace">998</td><td style="padding: 10px 7px; font-family: 'IBM Plex Mono', monospace">19:30–23:05</td><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace">3:35</td><td style="padding: 10px 7px; line-height: 1.35"><b>Ніч, R611, FL170</b></td></tr>
+      <tr style="border-top: 1px solid #E3DACA"><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace; color: #4A5878">7</td><td style="padding: 10px 7px"><div style="display: inline-block; border-radius: 6px; background: #6E9A4E; color: #ffffff; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 11px; padding: 3px 5px">29.11</div></td><td style="padding: 10px 7px; font-family: 'IBM Plex Mono', monospace; font-weight: 600">HAAB → HKNW</td><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace; font-weight: 700; color: #A3401F">1211</td><td style="padding: 10px 7px; font-family: 'IBM Plex Mono', monospace">10:30–15:05</td><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace">4:35</td><td style="padding: 10px 7px; line-height: 1.35">Грози, «Вілсон»</td></tr>
+      <tr style="border-top: 2px solid #1C3466; background: #F5D805"><td style="padding: 10px 7px"></td><td style="padding: 10px 7px"></td><td style="padding: 10px 7px; font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 15px; color: #1C3466">Разом</td><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace; font-weight: 700; color: #1C3466">6810</td><td style="padding: 10px 7px; font-family: 'IBM Plex Mono', monospace; color: #1C3466">3 дні</td><td style="padding: 10px 7px; text-align: right; font-family: 'IBM Plex Mono', monospace; font-weight: 700; color: #1C3466">23:13</td><td style="padding: 10px 7px; color: #1C3466; font-weight: 600">з них уночі 10:15</td></tr>
+    </tbody>
+  </table>
+
+  <div style="margin-top: 16px; position: relative; width: 666px; height: 236px; border-radius: 16px; overflow: hidden; border: 1px solid #D6CAB0">
+    <img src="img/flight-report.jpg" alt="Справжній рукописний звіт про політ Ан-28: сім етапів від Чайки до Найробі" style="width: 666px; height: 236px; object-fit: cover; object-position: 50% 0%; display: block">
+    <div style="position: absolute; right: 14px; bottom: 12px; background: #1C3466; color: #ffffff; border-radius: 999px; padding: 6px 12px; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px; letter-spacing: 1px">Оригінальний звіт про політ · 6810 км</div>
+  </div>
+
+  <div style="margin-top: 16px; display: flex; gap: 16px; background: #ffffff; border: 2px solid #A3401F; border-radius: 16px; padding: 16px 18px">
+    <svg aria-hidden="true" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#A3401F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0"><path d="M4 21V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v16"></path><path d="M3 21h12"></path><path d="M7 8h4"></path><path d="M14 10h2a2 2 0 0 1 2 2v4a1.5 1.5 0 0 0 3 0V8l-3-3"></path></svg>
+    <div style="display: flex; flex-direction: column; gap: 6px">
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 19px; color: #A3401F">Червоні цифри — на межі дальності</div>
+      <div style="font-size: 14px; line-height: 1.5">Ан-28 пролітає близько 1370 км, а етап 4 у звіті — 1400 км і 4:45 у повітрі. Справжній екіпаж дотягнув лише з додатковим баком. Якщо вашому літаку не вистачає пального, на етапах 4, 5 і 7 дозволена одна технічна посадка, наприклад Каїр <b style="font-family: 'IBM Plex Mono', monospace">HECA</b> або Асуан <b style="font-family: 'IBM Plex Mono', monospace">HESN</b>. Позначте її в бортжурналі.</div>
+    </div>
+  </div>
+
+  <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #CFC4AE; padding-top: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A5878">
+    <div>aerotruck logistics · ferry flight</div>
+    <div style="display: flex; align-items: center; gap: 10px"><div style="width: 24px; height: 6px; background: #F5D805; border-radius: 3px"></div><div>05 / 10</div></div>
+  </div>
+
+</div>
+</div></section>
+<section class="sheet" id="p6" style="--link:#3564AF"><div class="page" style="background:#F4EEE2">
+<div style="width: 794px; height: 1123px; box-sizing: border-box; padding: 40px 64px 36px 64px; display: flex; flex-direction: column; background: #F4EEE2; font-family: 'IBM Plex Sans', sans-serif; color: #16233F; overflow: hidden">
+
+  <div style="display: flex; justify-content: space-between; align-items: center; height: 40px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <img src="img/aerotruck-logo.png" alt="Логотип AeroTruck" style="width: 36px; height: 36px; border-radius: 8px; display: block">
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-style: italic; font-size: 17px; color: #3564AF">AeroTruck Logistics</div>
+    </div>
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 1px; color: #4A5878">ПЕРЕГІН В НАЙРОБІ · КАРТИ 1–4</div>
+  </div>
+
+  <div style="margin-top: 26px; display: flex; justify-content: space-between; align-items: flex-end; gap: 16px">
+    <h2 style="margin: 0; font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 46px; line-height: 1; color: #1C3466">Карти етапів 1–4</h2>
+    <div style="font-size: 13px; color: #4A5878; text-align: right; line-height: 1.4">Курси на картах істинні,<br>висоти вершин у футах</div>
+  </div>
+
+  <div style="margin-top: 20px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px">
+    <div style="display: flex; flex-direction: column; gap: 6px">
+      <div style="position: relative; width: 323px; height: 241px; border-radius: 12px; overflow: hidden; border: 1px solid #D6CAB0">
+        <img src="img/chart-leg1.jpg" alt="Карта етапу 1: Чайка → Жуляни" style="width: 323px; height: 241px; object-fit: cover; display: block">
+        <div style="position: absolute; left: 10px; top: 10px; width: 26px; height: 26px; border-radius: 8px; background: #DCE3EC; color: #1C3466; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 14px; display: flex; align-items: center; justify-content: center; border: 1.5px solid #1C3466">1</div>
+      </div>
+      <div style="margin-top: 4px; font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px; color: #1C3466">Чайка → Жуляни</div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600; color: #3564AF">UKKJ → UKKK</div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A5878">6 NM · 2 хв · 1000 ft</div>
+      <div style="font-size: 13.5px; line-height: 1.4">Сніг на ґрунті, кромка 70 м. Відриватися з горбка посередині поля.</div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 6px">
+      <div style="position: relative; width: 323px; height: 241px; border-radius: 12px; overflow: hidden; border: 1px solid #D6CAB0">
+        <img src="img/chart-leg2.jpg" alt="Карта етапу 2: Жуляни → Бургас" style="width: 323px; height: 241px; object-fit: cover; display: block">
+        <div style="position: absolute; left: 10px; top: 10px; width: 26px; height: 26px; border-radius: 8px; background: #DCE3EC; color: #1C3466; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 14px; display: flex; align-items: center; justify-content: center; border: 1.5px solid #1C3466">2</div>
+      </div>
+      <div style="margin-top: 4px; font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px; color: #1C3466">Жуляни → Бургас</div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600; color: #3564AF">UKKK → ODESA → LBBG</div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A5878">507 NM · 3:16 · 11 800 ft</div>
+      <div style="font-size: 13.5px; line-height: 1.4">Через Одесу на Бургас. Обледеніння в наборі, далі Румунія й узбережжя.</div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 6px">
+      <div style="position: relative; width: 323px; height: 241px; border-radius: 12px; overflow: hidden; border: 1px solid #D6CAB0">
+        <img src="img/chart-leg3.jpg" alt="Карта етапу 3: Бургас → Анталія" style="width: 323px; height: 241px; object-fit: cover; display: block">
+        <div style="position: absolute; left: 10px; top: 10px; width: 26px; height: 26px; border-radius: 8px; background: #DCE3EC; color: #1C3466; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 14px; display: flex; align-items: center; justify-content: center; border: 1.5px solid #1C3466">3</div>
+      </div>
+      <div style="margin-top: 4px; font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px; color: #1C3466">Бургас → Анталія</div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600; color: #3564AF">LBBG → ISTNB → KFK → LTAI</div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A5878">379 NM · 2:27 · 11 000 ft</div>
+      <div style="font-size: 13.5px; line-height: 1.4">Нічне море, Стамбул і через Афьон до Анталії.</div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 6px">
+      <div style="position: relative; width: 323px; height: 241px; border-radius: 12px; overflow: hidden; border: 1px solid #D6CAB0">
+        <img src="img/chart-leg4.jpg" alt="Карта етапу 4: Анталія → Луксор" style="width: 323px; height: 241px; object-fit: cover; display: block">
+        <div style="position: absolute; left: 10px; top: 10px; width: 26px; height: 26px; border-radius: 8px; background: #E3C27A; color: #3A2A0C; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 14px; display: flex; align-items: center; justify-content: center; border: 1.5px solid #1C3466">4</div>
+      </div>
+      <div style="margin-top: 4px; font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px; color: #1C3466">Анталія → Луксор</div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600; color: #3564AF">LTAI → ERCAN → CVO → HELX</div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A5878">764 NM · 4:56 · 10 000 ft</div>
+      <div style="font-size: 13.5px; line-height: 1.4">Найдовший етап: море без плота, Каїр і долина Нілу.</div>
+    </div>
+  </div>
+
+  <div style="margin-top: 18px; background: #F5D805; border-radius: 16px; padding: 14px 16px; display: flex; gap: 14px; align-items: center">
+    <img src="img/sticker-beaver-roger.png" alt="Бобер у формі пілота" style="width: 64px; height: 64px; object-fit: cover; object-position: 50% 70%; border-radius: 10px; display: block; flex-shrink: 0; border: 2px solid #1C3466">
+    <div style="font-size: 14px; line-height: 1.45; color: #1C3466"><b>Бобер радить:</b> друкуйте карти окремо, на весь аркуш альбомно. У повній роздільності читаються всі назви, вершини й аеродроми поблизу маршруту.</div>
+  </div>
+
+  <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #CFC4AE; padding-top: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A5878">
+    <div>aerotruck logistics · ferry flight</div>
+    <div style="display: flex; align-items: center; gap: 10px"><div style="width: 24px; height: 6px; background: #F5D805; border-radius: 3px"></div><div>06 / 10</div></div>
+  </div>
+
+</div>
+</div></section>
+<section class="sheet" id="p7" style="--link:#3564AF"><div class="page" style="background:#F4EEE2">
+<div style="width: 794px; height: 1123px; box-sizing: border-box; padding: 40px 64px 36px 64px; display: flex; flex-direction: column; background: #F4EEE2; font-family: 'IBM Plex Sans', sans-serif; color: #16233F; overflow: hidden">
+
+  <div style="display: flex; justify-content: space-between; align-items: center; height: 40px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <img src="img/aerotruck-logo.png" alt="Логотип AeroTruck" style="width: 36px; height: 36px; border-radius: 8px; display: block">
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-style: italic; font-size: 17px; color: #3564AF">AeroTruck Logistics</div>
+    </div>
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 1px; color: #4A5878">ПЕРЕГІН В НАЙРОБІ · КАРТИ 5–7</div>
+  </div>
+
+  <div style="margin-top: 26px; display: flex; justify-content: space-between; align-items: flex-end; gap: 16px">
+    <h2 style="margin: 0; font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 46px; line-height: 1; color: #1C3466">Карти етапів 5–7</h2>
+    <div style="font-size: 13px; color: #4A5878; text-align: right; line-height: 1.4">Курси на картах істинні,<br>висоти вершин у футах</div>
+  </div>
+
+  <div style="margin-top: 20px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px">
+    <div style="display: flex; flex-direction: column; gap: 6px">
+      <div style="position: relative; width: 323px; height: 241px; border-radius: 12px; overflow: hidden; border: 1px solid #D6CAB0">
+        <img src="img/chart-leg5.jpg" alt="Карта етапу 5: Луксор → Хартум" style="width: 323px; height: 241px; object-fit: cover; display: block">
+        <div style="position: absolute; left: 10px; top: 10px; width: 26px; height: 26px; border-radius: 8px; background: #E3C27A; color: #3A2A0C; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 14px; display: flex; align-items: center; justify-content: center; border: 1.5px solid #1C3466">5</div>
+      </div>
+      <div style="margin-top: 4px; font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px; color: #1C3466">Луксор → Хартум</div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600; color: #3564AF">HELX → HSSK</div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A5878">605 NM · 3:54 · 11 000 ft</div>
+      <div style="font-size: 13.5px; line-height: 1.4">Прямо на південь над пустелею. УКХ годинами мовчить.</div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 6px">
+      <div style="position: relative; width: 323px; height: 241px; border-radius: 12px; overflow: hidden; border: 1px solid #D6CAB0">
+        <img src="img/chart-leg6.jpg" alt="Карта етапу 6: Хартум → Аддис-Абеба" style="width: 323px; height: 241px; object-fit: cover; display: block">
+        <div style="position: absolute; left: 10px; top: 10px; width: 26px; height: 26px; border-radius: 8px; background: #1C3466; color: #F5D805; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 14px; display: flex; align-items: center; justify-content: center; border: 1.5px solid #1C3466">6</div>
+      </div>
+      <div style="margin-top: 4px; font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px; color: #1C3466">Хартум → Аддис-Абеба</div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600; color: #3564AF">HSSK → HAAB</div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A5878">540 NM · 3:29 · FL170</div>
+      <div style="font-size: 13.5px; line-height: 1.4">Уночі на ефіопське нагір'я, вершини понад 12 000 футів.</div>
+    </div>
+  </div>
+
+  <div style="margin-top: 20px; position: relative; width: 666px; height: 420px; border-radius: 14px; overflow: hidden; border: 1px solid #D6CAB0">
+    <img src="img/chart-leg7.jpg" alt="Карта етапу 7: Аддис-Абеба → Найробі" style="width: 666px; height: 420px; object-fit: cover; object-position: 50% 45%; display: block">
+    <div style="position: absolute; left: 12px; top: 12px; background: #1C3466; color: #ffffff; border-radius: 12px; padding: 10px 14px; display: flex; flex-direction: column; gap: 3px">
+      <div style="display: flex; align-items: center; gap: 8px"><div style="width: 22px; height: 22px; border-radius: 6px; background: #6E9A4E; color: #ffffff; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px; display: flex; align-items: center; justify-content: center">7</div><div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px">Аддис-Абеба → Найробі</div></div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #F5D805">HAAB → HKNW · 630 NM · 4:04 · 11 000 ft</div>
+    </div>
+  </div>
+  <div style="margin-top: 10px; font-size: 14px; line-height: 1.45">Майже прямо на південь над жовтими полями, а перед Найробі грози і мокра смуга «Вілсона». Фінал перегону: ви в Африці.</div>
+
+  <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #CFC4AE; padding-top: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A5878">
+    <div>aerotruck logistics · ferry flight</div>
+    <div style="display: flex; align-items: center; gap: 10px"><div style="width: 24px; height: 6px; background: #F5D805; border-radius: 3px"></div><div>07 / 10</div></div>
+  </div>
+
+</div>
+</div></section>
+<section class="sheet" id="p8" style="--link:#3564AF"><div class="page" style="background:#F4EEE2">
+<div style="width: 794px; height: 1123px; box-sizing: border-box; padding: 40px 64px 36px 64px; display: flex; flex-direction: column; background: #F4EEE2; font-family: 'IBM Plex Sans', sans-serif; color: #16233F; overflow: hidden">
+
+  <div style="display: flex; justify-content: space-between; align-items: center; height: 40px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <img src="img/aerotruck-logo.png" alt="Логотип AeroTruck" style="width: 36px; height: 36px; border-radius: 8px; display: block">
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-style: italic; font-size: 17px; color: #3564AF">AeroTruck Logistics</div>
+    </div>
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 1px; color: #4A5878">ПЕРЕГІН В НАЙРОБІ · ФЛОТ</div>
+  </div>
+
+  <h2 style="margin: 28px 0 0 0; font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 44px; line-height: 1.05; color: #1C3466; text-wrap: balance">Літак туру</h2>
+
+  <p style="margin: 14px 0 0 0; font-size: 16px; line-height: 1.55; text-wrap: pretty">«Аерофлот» колись попросив у КБ Антонова максимально простий літак, тож автопілот, локатор і курсо-глісадна система з проєкту зникли. Лишилися два потужні двигуни, довге планерне крило, великі двостулкові двері і крісла, що складаються. Пасажирський за хвилину стає вантажівкою.</p>
+
+  <div style="margin-top: 14px; position: relative; width: 666px; height: 130px; border-radius: 16px; overflow: hidden">
+    <img src="img/er-ajc-tail.jpg" alt="Хвостове оперення Ан-28 ER-AJC з логотипом TAT" style="width: 666px; height: 130px; object-fit: cover; object-position: 50% 48%; display: block">
+    <div style="position: absolute; right: 14px; bottom: 12px; background: #1C3466; color: #ffffff; border-radius: 999px; padding: 6px 12px; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px; letter-spacing: 1px">ER-AJC · пропрацював в Африці понад 10 років</div>
+  </div>
+
+  <div style="margin-top: 18px; background: #3564AF; color: #ffffff; border-radius: 18px; padding: 22px 24px; display: flex; flex-direction: column; gap: 12px">
+    <div style="font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 13px; letter-spacing: 2px; color: #F5D805">ЄДИНИЙ ДОЗВОЛЕНИЙ ЛІТАК</div>
+    <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 48px; line-height: 1">Антонов Ан-28</div>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px">
+      <div style="border: 1.5px solid #ffffff; border-radius: 999px; padding: 5px 12px; font-size: 13px">2 × ТВД-10Б, 960 к.с.</div>
+      <div style="border: 1.5px solid #ffffff; border-radius: 999px; padding: 5px 12px; font-size: 13px">17 пасажирів</div>
+      <div style="border: 1.5px solid #ffffff; border-radius: 999px; padding: 5px 12px; font-size: 13px">Два АРК</div>
+      <div style="border: 1.5px solid #F5D805; color: #F5D805; border-radius: 999px; padding: 5px 12px; font-size: 13px; font-weight: 600">Без автопілота</div>
+      <div style="border: 1.5px solid #F5D805; color: #F5D805; border-radius: 999px; padding: 5px 12px; font-size: 13px; font-weight: 600">Без герметизації</div>
+    </div>
+    <div style="font-size: 15px; line-height: 1.45; color: #ffffff">Для MSFS 2024: <b>Local Legend 26</b> від AT Simulations, з жовтня 2026 у Marketplace. Коштує 300–400 гривень.</div>
+  </div>
+
+  <div style="margin-top: 14px; background: #ffffff; border: 2px solid #A3401F; border-radius: 16px; padding: 16px 18px; display: flex; gap: 18px; align-items: center">
+    <img src="img/sticker-otter-love-this-plane.png" alt="Видра: Love this plane!" style="width: 150px; height: 124px; object-fit: cover; border-radius: 12px; display: block; flex-shrink: 0">
+    <div style="display: flex; flex-direction: column; gap: 6px">
+      <div style="font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 12px; letter-spacing: 2px; color: #A3401F">ТІЛЬКИ АН-28</div>
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 24px; line-height: 1.05; color: #1C3466">Жодних «Єлок» і замінників</div>
+      <div style="font-size: 14px; line-height: 1.45">Ан-28 нарешті є в MSFS і коштує як пара обідів, тож летимо тим, на чому летів екіпаж оповідання. Інші типи в цьому турі не зараховуються.</div>
+    </div>
+  </div>
+
+  <div style="margin-top: 14px; background: #F5D805; border-radius: 18px; padding: 20px; display: flex; gap: 18px; align-items: center">
+    <img src="img/sticker-beaver-coffee.png" alt="Бобер: Coffee break" style="width: 150px; height: 128px; object-fit: cover; border-radius: 12px; display: block; flex-shrink: 0; border: 2px solid #1C3466">
+    <div style="display: flex; flex-direction: column; gap: 8px">
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px; color: #1C3466">Порада від Бобра</div>
+      <div style="font-size: 14.5px; line-height: 1.45; color: #16233F">«Автопілота немає, тож чотири години штурвал хтось тримає завжди. Обідаємо в кріслах: пів батона вздовж, шинка в палець завтовшки, сир і повидло. Подавати в кабіну тільки вздовж, інакше не пролізе. І стежте за маслом: стулки маслорадіаторів відкриваються вручну, а забувають про них саме на зниженні».</div>
+    </div>
+  </div>
+
+  <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #CFC4AE; padding-top: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A5878">
+    <div>aerotruck logistics · ferry flight</div>
+    <div style="display: flex; align-items: center; gap: 10px"><div style="width: 24px; height: 6px; background: #F5D805; border-radius: 3px"></div><div>08 / 10</div></div>
+  </div>
+
+</div>
+</div></section>
+<section class="sheet" id="p9" style="--link:#3564AF"><div class="page" style="background:#F4EEE2">
+<div style="width: 794px; height: 1123px; box-sizing: border-box; padding: 40px 64px 36px 64px; display: flex; flex-direction: column; background: #F4EEE2; font-family: 'IBM Plex Sans', sans-serif; color: #16233F; overflow: hidden">
+
+  <div style="display: flex; justify-content: space-between; align-items: center; height: 40px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <img src="img/aerotruck-logo.png" alt="Логотип AeroTruck" style="width: 36px; height: 36px; border-radius: 8px; display: block">
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-style: italic; font-size: 17px; color: #3564AF">AeroTruck Logistics</div>
+    </div>
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 1px; color: #4A5878">ПЕРЕГІН В НАЙРОБІ · ПРАВИЛА</div>
+  </div>
+
+  <h2 style="margin: 28px 0 0 0; font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 46px; line-height: 1; color: #1C3466">Правила та поради</h2>
+
+  <div style="margin-top: 22px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+
+    <div style="background: #ffffff; border: 1px solid #DDD3C0; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; align-items: center; gap: 12px">
+        <div style="width: 40px; height: 40px; border-radius: 10px; background: #3564AF; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h6"></path><path d="M15 12h6"></path><path d="M12 15v6"></path><circle cx="12" cy="12" r="3"></circle></svg></div>
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px; color: #1C3466">Автопілота немає</div>
+      </div>
+      <div style="font-size: 14px; line-height: 1.45">Автопілота в Ан-28 немає, тож увесь маршрут тільки руками. Чотири години над пустелею зі штурвалом і є суть цього туру.</div>
+    </div>
+
+    <div style="background: #ffffff; border: 1px solid #DDD3C0; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; align-items: center; gap: 12px">
+        <div style="width: 40px; height: 40px; border-radius: 10px; background: #A3401F; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 12l4-5"></path><path d="M12 3v2"></path><path d="M21 12h-2"></path><path d="M3 12h2"></path></svg></div>
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px; color: #1C3466">Метри чи фути?</div>
+      </div>
+      <div style="font-size: 14px; line-height: 1.45">Перевірте одиниці висотоміра до зльоту. На «Чайці» командир ледь не зайняв 300 футів замість 300 метрів, бо прилад напередодні замінили.</div>
+    </div>
+
+    <div style="background: #ffffff; border: 1px solid #DDD3C0; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; align-items: center; gap: 12px">
+        <div style="width: 40px; height: 40px; border-radius: 10px; background: #1C3466; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F5D805" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"></path><path d="M8 6l4-4 4 4"></path><path d="M4 14h4"></path><path d="M16 14h4"></path></svg></div>
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px; color: #1C3466">Ніч над R611 · FL170</div>
+      </div>
+      <div style="font-size: 14px; line-height: 1.45">Етап 6 уночі: поруч із трасою гора на 4 км, тож мінімальний ешелон FL170, хоча літак без герметизації. Летите вдень, тоді вистачить FL150. Вище FL100 без потреби не тримайтеся.</div>
+    </div>
+
+    <div style="background: #ffffff; border: 1px solid #DDD3C0; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; align-items: center; gap: 12px">
+        <div style="width: 40px; height: 40px; border-radius: 10px; background: #1C3466; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F5D805" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="3"></circle><path d="M12 21s-7-6.5-7-11a7 7 0 0 1 14 0c0 4.5-7 11-7 11z"></path></svg></div>
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px; color: #1C3466">«Direct to KFK»</div>
+      </div>
+      <div style="font-size: 14px; line-height: 1.45">Диспетчер спрямляє на незнайомий маяк? Вбийте його в GPS через «direct to». Зовсім загубилися, тоді попросіть продовжити політ за флайтпланом.</div>
+    </div>
+
+    <div style="background: #ffffff; border: 1px solid #DDD3C0; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; align-items: center; gap: 12px">
+        <div style="width: 40px; height: 40px; border-radius: 10px; background: #B07A1A; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4v10.5a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0z"></path><path d="M12 17h.01"></path></svg></div>
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px; color: #1C3466">Масло гріється</div>
+      </div>
+      <div style="font-size: 14px; line-height: 1.45">Стулки маслорадіаторів відкриваються вручну. У Бургасі про них забули, і літак до стоянки довелося докочувати руками. Після вимкнення двигуни запускають не раніше ніж за десять хвилин.</div>
+    </div>
+
+    <div style="background: #ffffff; border: 1px solid #DDD3C0; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; align-items: center; gap: 12px">
+        <div style="width: 40px; height: 40px; border-radius: 10px; background: #B07A1A; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5a10 10 0 0 1 14 0"></path><path d="M8.5 16a5 5 0 0 1 7 0"></path><path d="M12 19.5h.01"></path><path d="M3 3l18 18"></path></svg></div>
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px; color: #1C3466">Тиша в ефірі</div>
+      </div>
+      <div style="font-size: 14px; line-height: 1.45">Над пустелею на ваших висотах УКХ мовчить годинами. Це нормально. Пробуйте КХ, просіть інші борти ретранслювати, тримайте лінію на GPS.</div>
+    </div>
+
+    <div style="background: #ffffff; border: 1px solid #DDD3C0; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; align-items: center; gap: 12px">
+        <div style="width: 40px; height: 40px; border-radius: 10px; background: #4E7A35; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><path d="M14 3v6h6"></path><path d="M8 13h8"></path><path d="M8 17h5"></path></svg></div>
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px; color: #1C3466">Папка — це все</div>
+      </div>
+      <div style="font-size: 14px; line-height: 1.45">Схеми на кожен аеродром, флайтплани і генеральні декларації з підписом командира. У Хартумі без «Жі-Ді» ночувати не дали.</div>
+    </div>
+
+    <div style="background: #F5D805; border-radius: 16px; padding: 16px; display: flex; gap: 14px; align-items: center">
+      <img src="img/sticker-beaver-holding.png" alt="Бобер: Holding pattern" style="width: 110px; height: 96px; object-fit: cover; border-radius: 12px; display: block; flex-shrink: 0; border: 2px solid #1C3466">
+      <div style="font-size: 14px; line-height: 1.45; font-weight: 600; color: #1C3466">Не знаєте аеродрому, просіть «Follow me». Сумніваєтесь у погоді, не летіть.</div>
+    </div>
+
+  </div>
+
+  <div style="margin-top: 16px; background: #1C3466; color: #ffffff; border-radius: 14px; padding: 14px 18px; display: flex; gap: 14px; align-items: center">
+    <img src="img/sticker-beaver-redeye.png" alt="Бобер: Red-eye" style="width: 64px; height: 56px; object-fit: cover; border-radius: 10px; display: block; flex-shrink: 0">
+    <div style="font-size: 14px; line-height: 1.45">Головна думка автора оповідання: так літати не треба. Перегін вдається, коли до нього готові і екіпаж, і літак, а не коли сподіваються, що «якось проскочимо».</div>
+  </div>
+
+  <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #CFC4AE; padding-top: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A5878">
+    <div>aerotruck logistics · ferry flight</div>
+    <div style="display: flex; align-items: center; gap: 10px"><div style="width: 24px; height: 6px; background: #F5D805; border-radius: 3px"></div><div>09 / 10</div></div>
+  </div>
+
+</div>
+</div></section>
+<section class="sheet" id="p10" style="--link:#F5D805"><div class="page" style="background:#3564AF">
+<div style="width: 794px; height: 1123px; box-sizing: border-box; padding: 52px 64px 40px 64px; display: flex; flex-direction: column; align-items: center; background: #3564AF; font-family: 'IBM Plex Sans', sans-serif; color: #ffffff; overflow: hidden">
+
+  <div style="font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 14px; letter-spacing: 3px; color: #F5D805">НАГОРОДА</div>
+
+  <img src="img/patch-ferry-air-trucker.png" alt="Вишитий знак Ferry Air Trucker з Бобром, UKKJ – HKNW" style="margin-top: 14px; width: 282px; height: 330px; display: block; filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.35))">
+
+  <p style="margin: 18px 0 0 0; max-width: 610px; text-align: center; font-size: 19px; line-height: 1.5; text-wrap: balance">Після всіх семи етапів ви отримаєте почесний знак Ferry Air Trucker, а ваше ім'я впишуть у бортовий журнал поруч із Бобром, Видрою та Качуром. Ан-28 з оповідання пропрацював в Африці понад десять років. Нехай ваш теж.</p>
+
+  <div style="margin-top: 26px; width: 666px; display: flex; gap: 24px; align-items: center; background: #ffffff; color: #16233F; border-radius: 18px; padding: 20px">
+    <img src="img/sticker-beaver-landed.png" alt="Бобер: Landed" style="width: 160px; height: 134px; object-fit: cover; border-radius: 12px; display: block; flex-shrink: 0; border: 2px solid #1C3466">
+    <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 14px">
+      <div style="font-family: 'Exo 2', sans-serif; font-weight: 900; font-style: italic; font-size: 20px; color: #1C3466">Бортовий журнал</div>
+      <div style="display: flex; flex-direction: column; gap: 4px"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A5878">ПІЛОТ</div><div style="border-bottom: 1.5px dashed #4A5878; height: 18px"></div></div>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px">
+        <div style="display: flex; flex-direction: column; gap: 4px"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A5878">ТЕХ. ПОСАДКИ</div><div style="border-bottom: 1.5px dashed #4A5878; height: 18px"></div></div>
+        <div style="display: flex; flex-direction: column; gap: 4px"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A5878">ДАТА ПРИБУТТЯ</div><div style="border-bottom: 1.5px dashed #4A5878; height: 18px"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-top: 22px; width: 666px; box-sizing: border-box; border: 1px solid #6F8FCB; border-radius: 14px; padding: 16px 20px; text-align: center; font-size: 14px; line-height: 1.5; color: #ffffff; font-style: italic">Пам'яті екіпажів, які в 90-ті перегоняли літаки в далекі теплі краї і не долетіли ні туди, ні назад.</div>
+
+  <div style="margin-top: auto; width: 666px; display: flex; flex-direction: column; gap: 12px; border-top: 1px solid #5B7DBD; padding-top: 16px">
+    <div style="display: flex; align-items: center; justify-content: space-between; gap: 16px">
+      <div style="display: flex; align-items: center; gap: 12px">
+        <img src="img/aerotruck-logo.png" alt="Логотип AeroTruck" style="width: 48px; height: 48px; border-radius: 10px; display: block">
+        <div style="font-family: 'Exo 2', sans-serif; font-weight: 800; font-style: italic; font-size: 22px">AeroTruck Logistics</div>
+      </div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #DCE6F7">10 / 10</div>
+    </div>
+    <div style="font-size: 12px; line-height: 1.5; color: #DCE6F7">Тур для віртуальних польотів за мотивами оповідання Flying Elk «Ан-28, перегон літака в Африку» (2024). Події оповідання автор називає вигадкою. Прочитати: <a href="https://www.patreon.com/u76304899/posts/28-peregon-v-116789578">patreon.com/u76304899/posts/28-peregon-v-116789578</a>. Не придатний для реальної навігації.</div>
+  </div>
+
+</div>
+</div></section>
+</main>
+<script>
+function fit(){document.querySelectorAll('.sheet').forEach(function(s){s.querySelector('.page').style.setProperty('--s',s.clientWidth/794)})}
+addEventListener('resize',fit);fit();
+</script>
+</body>
+</html>
